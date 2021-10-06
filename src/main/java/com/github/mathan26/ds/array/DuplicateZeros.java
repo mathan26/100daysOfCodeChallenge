@@ -17,10 +17,6 @@ import java.util.List;
 
 public class DuplicateZeros {
     public void duplicateZeros(int[] arr) {
-
-
-
-
         // Inline operation
 
         int possibleDups = 0;
