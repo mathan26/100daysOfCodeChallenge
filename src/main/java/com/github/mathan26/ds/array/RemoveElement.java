@@ -16,7 +16,7 @@ public class RemoveElement {
             }
         }
 
-        return k; // this pointer holds the value, i.e equal to removing val
+        return k; // this pointer holds the value, i.e equal to removing numsarry.length - removing duplicate count
 
     }
 }
