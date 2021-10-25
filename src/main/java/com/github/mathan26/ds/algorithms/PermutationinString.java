@@ -26,16 +26,14 @@ public class PermutationinString {
             count[s2.charAt(i) - 'a']--; // s2 subtract
         }
 
-        if (allZero(count))
-            return true;
+        if (allZero(count)) return true;
 
         for (int i = len1; i < len2; i++) {
             // window moving right subtract the count
             count[s2.charAt(i) - 'a']--;
             // window left out add the count
             count[s2.charAt(i - len1) - 'a']++;
-            if (allZero(count))
-                return true;
+            if (allZero(count)) return true;
         }
 
         return false;
