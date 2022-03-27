@@ -18,7 +18,7 @@ class DuplicateZerosTest {
 
     @Test
     public  void testEdgeCase() {
-        int[] input = {1,1,0};
+        int[] input = {1,0,0, 1};
         DuplicateZeros duplicateZeros = new DuplicateZeros();
         duplicateZeros.duplicateZeros(input);
         Assertions.assertArrayEquals(new int[]{1, 1, 0},input);
