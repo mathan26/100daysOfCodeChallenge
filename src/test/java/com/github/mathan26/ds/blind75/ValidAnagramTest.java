@@ -1,9 +1,8 @@
 package com.github.mathan26.ds.blind75;
 
+import com.github.mathan26.ds.blind75.array_hasing.ValidAnagram;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ValidAnagramTest {
 
