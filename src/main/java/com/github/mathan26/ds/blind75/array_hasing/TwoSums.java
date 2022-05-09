@@ -22,7 +22,7 @@ public class TwoSums {
                 result[1] = i;
                 return result;
             }
-            map.put(nums[i], i); // Note, put the nums[i] and the indexc
+            map.put(nums[i], i); // Note, put the nums[i] and the index
         }
 
         return result;
