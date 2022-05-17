@@ -1,6 +1,6 @@
 package com.github.mathan26.ds.blind75;
 
-import com.github.mathan26.ds.blind75.array_hasing.ValidAnagram;
+import com.github.mathan26.ds.blind75.array_hashing.ValidAnagram;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,12 +1,11 @@
 package com.github.mathan26.ds.blind75.array_hasing;
 
+import com.github.mathan26.ds.blind75.array_hashing.EncodeDecode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class EncodeDecodeTest {
 

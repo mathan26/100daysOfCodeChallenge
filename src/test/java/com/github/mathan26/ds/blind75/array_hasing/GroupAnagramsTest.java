@@ -1,12 +1,9 @@
 package com.github.mathan26.ds.blind75.array_hasing;
 
-import org.junit.jupiter.api.Assertions;
+import com.github.mathan26.ds.blind75.array_hashing.GroupAnagrams;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class GroupAnagramsTest {
 

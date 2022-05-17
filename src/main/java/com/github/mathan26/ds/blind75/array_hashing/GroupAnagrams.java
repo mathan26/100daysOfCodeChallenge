@@ -1,4 +1,4 @@
-package com.github.mathan26.ds.blind75.array_hasing;
+package com.github.mathan26.ds.blind75.array_hashing;
 
 import java.util.ArrayList;
 import java.util.HashMap;

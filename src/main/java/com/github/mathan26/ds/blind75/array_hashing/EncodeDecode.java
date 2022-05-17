@@ -1,4 +1,4 @@
-package com.github.mathan26.ds.blind75.array_hasing;
+package com.github.mathan26.ds.blind75.array_hashing;
 //https://cheonhyangzhang.gitbooks.io/leetcode-solutions/content/271-encode-and-decode-strings.html
 
 import java.util.ArrayList;
