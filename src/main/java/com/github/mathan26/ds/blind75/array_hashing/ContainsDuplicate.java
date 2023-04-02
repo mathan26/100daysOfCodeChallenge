@@ -24,9 +24,9 @@ public class ContainsDuplicate {
         // We can use the hashing technique
         HashSet<Integer> set = new HashSet<Integer>();
 
-        for(int num:nums){
+        for (int num : nums) {
             // check condition
-            if(set.contains(num)){
+            if (set.contains(num)) {
                 // if num is already added, then we know it contains duplicate.
                 return true;
             }

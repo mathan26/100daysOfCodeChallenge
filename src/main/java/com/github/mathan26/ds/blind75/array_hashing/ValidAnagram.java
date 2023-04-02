@@ -7,27 +7,27 @@ public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
 
         // it should be same length
-        if(s.length() != t.length()){
+        if (s.length() != t.length()) {
             return false;
         }
 
         // check same string
-        if(s.equals(t)) return true;
+        if (s.equals(t)) return true;
 
         Map<Character, Integer> sMap = new HashMap<>();
         Map<Character, Integer> tMap = new HashMap<>();
 
 
-        for(int i=0; i < s.length(); i++){
+        for (int i = 0; i < s.length(); i++) {
             // Merge function does the job
             sMap.merge(s.charAt(i), 1, Integer::sum);
             tMap.merge(t.charAt(i), 1, Integer::sum);
         }
 
 
-        for(Character c:sMap.keySet()){
+        for (Character c : sMap.keySet()) {
             // only equals works! WEIRD!
-            if(!sMap.get(c).equals(tMap.get(c))) return false;
+            if (!sMap.get(c).equals(tMap.get(c))) return false;
         }
 
         return true;

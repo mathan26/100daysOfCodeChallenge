@@ -23,27 +23,27 @@ package com.github.mathan26.ds.blind75.array_hashing;
 // prefix sum and postfix sum
 public class ProductofArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
-        int size=nums.length;
+        int size = nums.length;
         int[] output = new int[size];
         // set it to one, before there is no value
-        int product=1;
+        int product = 1;
 
         // calculate prefix sum
-        for(int i=0;i<size;i++){
-            product *=nums[i];
+        for (int i = 0; i < size; i++) {
+            product *= nums[i];
             // replace the value in place
-            output[i]=product;
+            output[i] = product;
         }
 
-        product=1;
+        product = 1;
 
         // calculate postfix
-        for(int i=size-1;i>0;i--){
-            output[i]=output[i-1]*product;
-            product *=nums[i];
+        for (int i = size - 1; i > 0; i--) {
+            output[i] = output[i - 1] * product;
+            product *= nums[i];
         }
         // note
-        output[0]=product;
+        output[0] = product;
 
         return output;
     }
