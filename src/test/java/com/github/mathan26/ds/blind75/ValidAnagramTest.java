@@ -13,6 +13,7 @@ class ValidAnagramTest {
 
         ValidAnagram validAnagram = new ValidAnagram();
         Assertions.assertEquals(true, validAnagram.isAnagram(input1, input2));
+        
     }
 
 }
